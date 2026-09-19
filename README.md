@@ -4,13 +4,24 @@
 
 </div>
 
-11+ years in enterprise engineering (Deloitte — CTO/IT Director track), now building independent technical ventures: a semiconductor device simulator, applied climate-hazard research, and a couple of real commercial builds. I like problems where the physics or the domain constraints are the hard part, not just the code.
+11+ years in enterprise engineering (Deloitte — CTO/IT Director track). I currently run the engineering platform for NS Engineering Geotechnical Services, and build independent technical ventures on the side: a semiconductor device simulator, applied climate-hazard research, and a couple of real commercial builds. I like problems where the physics, the domain constraints, or the governance is the hard part, not just the code.
 
 ### Currently
 
 - **Quantum Foundry** — a post-silicon & 3D-stacking semiconductor simulator predicting 2D-material choices, device geometry, thermal limits, and manufacturability ahead of physical fabrication. Multi-physics pipeline: Quantum ESPRESSO/Wannier90 for ab-initio, DEVSIM + Kwant for device transport (drift-diffusion and atomistic NEGF), FEniCSx/Elmer/HotSpot for thermal-mechanical, custom Monte Carlo for yield. 188/188 tests passing, real multi-tier CFET/GAA/M3D physics (not schema-only). Private for now — see below.
 - **Revert Climate Crisis** — a nonprofit venture born out of the 2026 Rasuwa/Langtang Lirung GLOF disaster in Nepal. Built a real glacial-lake-outburst-flood hazard pipeline scoring 47 ICIMOD-listed lakes against seismic, precipitation, and satellite-derived exposure data (GEM, CHIRPS, TerraClimate, Earth Engine/HydroSHEDS flow-path tracing).
 - **Wormhole Hunt** — testing general-relativity alternative-compact-object signatures against public gravitational-microlensing survey data (OGLE, MOA), working toward a publishable result.
+
+### NS Engineering (Geotechnical Services) — engineering platform
+
+Alongside the independent ventures above, I build and run the internal engineering platform for **NS Engineering Geotechnical Services** — a portfolio of Frappe/ERPNext-based systems covering lab operations, HR, finance, and document control for the company.
+
+- **eng_lab_suite** — the core platform: SOP-first role-based governance across the company's operational roles, a full HR module, document-control workflows with real managerial approval authority, and a department-structured training/wiki system. Backed by a real dev → stage → prod CI pipeline and ongoing permission/access audits.
+- **nserp** — the company's ERPNext deployment, covering financial operations, deploy pipelines, and backup infrastructure.
+- **companymanagement** — identity and backup infrastructure.
+- **ns-collab** — internal collaboration stack: self-hosted Mattermost + Keycloak OIDC SSO.
+
+This is systems and governance work as much as it's code — designing role structures and approval chains that hold up under audit, not just shipping features.
 
 ### Selected work
 
@@ -24,7 +35,7 @@
 
 ### Stack
 
-`TypeScript` · `Python` · `React` · `Next.js` · `Node.js` · `Prisma` · `PostgreSQL` · `Docker` · `Frappe/ERPNext` · `DEVSIM` · `Kwant` · `FEniCSx`
+`TypeScript` · `Python` · `React` · `Next.js` · `Node.js` · `Prisma` · `PostgreSQL` · `Docker` · `Frappe/ERPNext` · `Keycloak/OIDC` · `DEVSIM` · `Kwant` · `FEniCSx`
 
 ### Reach me
 
